@@ -70,7 +70,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <returns></returns>
         public double MediaPonderata()
         {
-
+            return (sommaValori * sommaPesi) / sommaPesi;
         }
 
         /// <summary>
