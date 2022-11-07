@@ -10,6 +10,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
     public class Statistiche
     {
         private int sommaValori = 0;
+        private int numeroValori = 0;
         private int sommaPesi = 0;
 
         /// <summary>
@@ -29,7 +30,8 @@ namespace AS2223_4G_INF_Prof_Statistiche
             
             Console.WriteLine("Inserisci valore");
             valore = Convert.ToInt32(Console.ReadLine());
-            sommaValori 
+            sommaValori += valore;
+            numeroValori++;
             //inserire valore
         }
 
@@ -40,11 +42,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <param name="peso"></param>
         public void AddValue(int valore, double peso)
         {
-            Console.WriteLine("Inserisci valore");
-            valore = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Inserisci peso del valore");
-            peso = Convert.ToDouble(Console.ReadLine());
-            //inserire valore e peso
+            
         }
 
         /// <summary>
