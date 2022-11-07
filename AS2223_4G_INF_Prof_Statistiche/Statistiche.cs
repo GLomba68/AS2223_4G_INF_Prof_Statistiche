@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,6 +9,8 @@ namespace AS2223_4G_INF_Prof_Statistiche
 {
     public class Statistiche
     {
+        private int sommaValori = 0;
+        private int sommaPesi = 0;
 
         /// <summary>
         /// https://github.com/GLomba68/AS2223_4G_INF_Prof_Statistiche
@@ -23,8 +26,10 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <param name="valore"></param>
         public void AddValue(int valore)
         {
+            
             Console.WriteLine("Inserisci valore");
             valore = Convert.ToInt32(Console.ReadLine());
+            sommaValori 
             //inserire valore
         }
 
