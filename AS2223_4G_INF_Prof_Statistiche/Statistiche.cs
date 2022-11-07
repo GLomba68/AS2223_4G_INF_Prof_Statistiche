@@ -11,7 +11,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
     {
         private int sommaValori = 0;
         private int numeroValori = 0;
-        private int sommaPesi = 0;
+        private double sommaPesi = 0;
 
         /// <summary>
         /// https://github.com/GLomba68/AS2223_4G_INF_Prof_Statistiche
@@ -42,7 +42,14 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <param name="peso"></param>
         public void AddValue(int valore, double peso)
         {
-            
+            Console.WriteLine("Inserisci valore");
+            valore = Convert.ToInt32(Console.ReadLine());
+            sommaValori += valore;
+            numeroValori++;
+            Console.WriteLine("Inserisci peso del valore");
+            peso = Convert.ToDouble(Console.ReadLine());
+            sommaPesi += peso;
+            //inserire valore e peso
         }
 
         /// <summary>
