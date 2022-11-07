@@ -9,7 +9,9 @@ namespace AS2223_4G_INF_Prof_Statistiche
     public class Statistiche
     {
 
-
+        /// <summary>
+        /// https://github.com/GLomba68/AS2223_4G_INF_Prof_Statistiche
+        /// </summary>
         public Statistiche()
         {
 
@@ -21,6 +23,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <param name="valore"></param>
         public void AddValue(int valore)
         { 
+            
         }
 
         /// <summary>
@@ -30,7 +33,9 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <param name="peso"></param>
         public void AddValue(int valore, double peso)
         {
-
+            int n = 0;
+            Console.WriteLine("Inserisci un numero senza peso");
+            n = Convert.ToInt32(Console.ReadLine());     
         }
 
         /// <summary>
@@ -40,7 +45,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <returns></returns>
         public double MediaAritmetica()
         {
-
+            
         }
 
         /// <summary>
