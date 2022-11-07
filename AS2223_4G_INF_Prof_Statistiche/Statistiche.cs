@@ -12,6 +12,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
         private int sommaValori = 0;
         private int numeroValori = 0;
         private double sommaPesi = 0;
+        
 
         /// <summary>
         /// https://github.com/GLomba68/AS2223_4G_INF_Prof_Statistiche
@@ -59,7 +60,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <returns></returns>
         public double MediaAritmetica()
         {
-            
+            return sommaValori/numeroValori;
         }
 
         /// <summary>
