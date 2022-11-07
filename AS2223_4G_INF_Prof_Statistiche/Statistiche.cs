@@ -36,7 +36,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
             int n = 0;
             Console.WriteLine("Inserisci un numero senza peso");
             n = Convert.ToInt32(Console.ReadLine());
-            // inserire valore
+            // Inserire valore
         }
 
         /// <summary>
