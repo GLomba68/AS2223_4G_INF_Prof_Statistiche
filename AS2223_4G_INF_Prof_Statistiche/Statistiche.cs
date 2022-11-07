@@ -25,6 +25,7 @@ namespace AS2223_4G_INF_Prof_Statistiche
         {
             Console.WriteLine("Inserisci valore");
             valore = Convert.ToInt32(Console.ReadLine());
+            //inserire valore
         }
 
         /// <summary>
@@ -34,7 +35,11 @@ namespace AS2223_4G_INF_Prof_Statistiche
         /// <param name="peso"></param>
         public void AddValue(int valore, double peso)
         {
-            
+            Console.WriteLine("Inserisci valore");
+            valore = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Inserisci peso del valore");
+            peso = Convert.ToDouble(Console.ReadLine());
+            //inserire valore e peso
         }
 
         /// <summary>
